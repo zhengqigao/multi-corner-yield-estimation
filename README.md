@@ -8,6 +8,10 @@ Parametric yield estimation over multiple process corners plays an important rol
 
 Obviously, MATLAB is required for running the algorithm. All the source files are in the directory named 'src'. Note that the .mat files are the circuit simulation results. Since we simulate the circuit using Hspice provided a commerical Process Design Kit (PDK), we are not able to provide simulation details. Moreover, our focus should be put on the algorithm side, and so these files are also not important :-)
 
-## 3. Contact
+## 3. Propsoed Algorithm (Key Concept)
+
+We introduce a Gaussian distribution as prior. Combining with the likelihood function (in the form of Bernoulli distribution), we obtain a posterior distribuion. The optimal yield estimation results can be extracted by Maximum-a-Posteriori (MAP). However, there is no closed form for the posterior, we adope IRLS method to calculate its mode. Furthermore, the hyper-parameters in the model are efficiently inferenced by Laplacian Approximation and Expectation-Maximization.
+
+## 4. Contact
 
 Please feel free to contact me at <18212020014@fudan.edu.cn> or <zhengqigao@163.com>.
