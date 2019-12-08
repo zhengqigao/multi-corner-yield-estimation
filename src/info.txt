@@ -1,0 +1,10 @@
+This is the result/code used in TCAD paper.
+
+For the students coming from my Lab who also want to repeat the simulation results:
+
+1) The simulation of SRAM example used in TCAD paper is implemented via MATLAB. 
+
+2) You can contact me at <zhengqigao@163.com> for more details. 
+
+3) I also cannot guarantee to exactly repeat the 'data_cell.mat' and 'res_cell.mat'. 
+

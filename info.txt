@@ -1,0 +1,15 @@
+under this file path
+
+it is the result used in DATE paper.
+pvt opamp is the second case.
+sram access is the first case.
+details in yeild_main.m
+
+simulation of pvt opmap is in zqgao/yield/opamp_server_Sep11
+
+Note that it seems that some parameters have been revised under the current path,
+and thus the results are different from that shown in TCAD(or DATE) paper.
+
+If you want exactly repeat results, please refer to ../code/
+
+I am sure that you can repeat the results.
